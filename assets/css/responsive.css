@@ -284,16 +284,22 @@
 		max-width: 100%;
 	}
 
+	.vacancy__feedback {
+		order: 2;
+	}
+
+	.vacancy__right-column {
+		order: -1;
+	}
+
 	.vacancy__feedback input {
 		width: 100%;
 		max-width: 100%;
 	}
 
-	.vacancy__right-column__block h3:first-child {
+	.vacancy__left-column img {
 		margin-top: 35px;
 	}
-
-
 }
 
 @media screen and (max-width: 500px) {
