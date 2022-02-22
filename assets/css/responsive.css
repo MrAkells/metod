@@ -1,0 +1,319 @@
+@media screen and (max-width: 1280px) {
+	nav ul li a {
+		font-size: 18px;
+	}
+
+	.services-block .services-block__grid {
+		padding: 0 60px;
+		-webkit-box-pack: space-evenly;
+		-webkit-justify-content: space-evenly;
+		-moz-box-pack: space-evenly;
+		-ms-flex-pack: space-evenly;
+		justify-content: space-evenly;
+	}
+}
+
+@media screen and (max-width: 1099px) {
+	.main-block .inner {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+
+	.main-block .main-block__text {
+		text-align: center;
+		margin: 0;
+	}
+
+	.main-block .main-block__text .main-block__button {
+		margin: 30px auto;
+		text-align: center;
+	}
+
+	.main-block .main-block__img {
+		margin: 0 auto;
+	}
+
+	.main-block .inner {
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		-moz-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+	}
+
+	.services-block .services-block__grid {
+		-webkit-box-pack: space-evenly;
+		-webkit-justify-content: space-evenly;
+		-moz-box-pack: space-evenly;
+		-ms-flex-pack: space-evenly;
+		justify-content: space-evenly;
+		padding: 0 0;
+	}
+
+	.services-block .services-block__grid div {
+		max-width: 100%;
+	}
+
+	.brands-block .stats {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		-moz-box-orient: vertical;
+		-moz-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		max-width: -webkit-max-content;
+		max-width: -moz-max-content;
+		max-width: max-content;
+		margin: 0 auto;
+
+	}
+
+	.brands-block .stats div {
+		font-size: 24px;
+		line-height: 45px;
+	}
+
+	.brands-block .stats div span {
+		font-size: 27px;
+	}
+
+	.wrapper__awards-block .awards-block {
+		padding-top: 255px;
+	}
+
+	.feedback-block .feedback-block__wrapper {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		-moz-box-orient: vertical;
+		-moz-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.feedback-block .feedback-block__row {
+		max-width: 100%;
+	}
+
+	.feedback-block .feedback-block_right {
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.feedback-block .feedback-block__line_1 {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		-moz-box-orient: vertical;
+		-moz-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.feedback-block .feedback__input {
+		max-width: 100%;
+	}
+
+	.feedback-block .feedback__input input {
+		max-width: 100%;
+	}
+
+	.feedback-block .main-block__button {
+		text-align: center;
+		margin: 0;
+	}
+
+	.wrapper__footer .container {
+		padding: 10px 15px;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+
+	.wrapper__contacts .container {
+		padding: 10px 15px;
+		line-height: 25px;
+	}
+
+	.wrapper__contacts .container div:first-child {
+		max-width: 66%;
+	}
+
+	.wrapper__contacts .container div:last-child {
+		margin-top: 10px;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		-moz-box-orient: vertical;
+		-moz-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.vacancy {
+		padding: 15px 25px;
+	}
+
+	.lol-wrapper {
+		max-width: 340px;
+	}
+
+	.vacancy__left-column {
+		width: 50%;
+	}
+
+	.vacancy__right-column {
+		width: 45%;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.services-block .services-block__grid {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		-moz-box-orient: vertical;
+		-moz-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		-moz-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+	}
+
+	.services-block .services-block__grid div {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		-moz-box-orient: vertical;
+		-moz-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		-moz-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+	}
+
+	.container h1 {
+		font-size: 26px;
+	}
+
+	.vacancy__content {
+		/*flex-wrap: wrap;*/
+	}
+
+	.vacancy .vacancy__left-column .vacancy__feedback {
+		padding: 15px 20px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.burger-menu {
+		display: block;
+	}
+
+	header nav {
+		display: none;
+	}
+
+	.vacancy__head {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		-moz-box-orient: vertical;
+		-moz-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-align: start;
+		-webkit-align-items: flex-start;
+		-moz-box-align: start;
+		-ms-flex-align: start;
+		align-items: flex-start;
+	}
+
+	.lol-wrapper {
+		max-width: 100%;
+	}
+
+	.lol-wrapper + span {
+		margin: 15px 0;
+	}
+
+	.vacancy__content {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		-moz-box-orient: vertical;
+		-moz-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.vacancy__content img {
+		width: 100%;
+	}
+
+	.vacancy__content .vacancy__left-column {
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.vacancy__content .vacancy__right-column {
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.vacancy__feedback input {
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.vacancy__right-column__block h3:first-child {
+		margin-top: 35px;
+	}
+
+
+}
+
+@media screen and (max-width: 500px) {
+	.wrapper__footer .container {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		-moz-box-orient: vertical;
+		-moz-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.wrapper__contacts .container {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		-moz-box-orient: vertical;
+		-moz-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+}
